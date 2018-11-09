@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EC4520821950F72008BE374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC4520721950F72008BE374 /* AppDelegate.swift */; };
+		3EC4520A21950F72008BE374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC4520921950F72008BE374 /* ViewController.swift */; };
+		3EC4520D21950F72008BE374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC4520B21950F72008BE374 /* Main.storyboard */; };
+		3EC4520F21950F73008BE374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC4520E21950F73008BE374 /* Assets.xcassets */; };
+		3EC4521221950F73008BE374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC4521021950F73008BE374 /* LaunchScreen.storyboard */; };
+		3EC4521D21950F73008BE374 /* Mental_MathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC4521C21950F73008BE374 /* Mental_MathTests.swift */; };
+		3EC4522821950F73008BE374 /* Mental_MathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC4522721950F73008BE374 /* Mental_MathUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EC4521921950F73008BE374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EC451FC21950F71008BE374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EC4520321950F72008BE374;
+			remoteInfo = "Mental Math";
+		};
+		3EC4522421950F73008BE374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EC451FC21950F71008BE374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EC4520321950F72008BE374;
+			remoteInfo = "Mental Math";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EC4520421950F72008BE374 /* Mental Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mental Math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC4520721950F72008BE374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EC4520921950F72008BE374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EC4520C21950F72008BE374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EC4520E21950F73008BE374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EC4521121950F73008BE374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EC4521321950F73008BE374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC4521821950F73008BE374 /* Mental MathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mental MathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC4521C21950F73008BE374 /* Mental_MathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mental_MathTests.swift; sourceTree = "<group>"; };
+		3EC4521E21950F73008BE374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC4522321950F73008BE374 /* Mental MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mental MathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC4522721950F73008BE374 /* Mental_MathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mental_MathUITests.swift; sourceTree = "<group>"; };
+		3EC4522921950F73008BE374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EC4520121950F72008BE374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC4521521950F73008BE374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC4522021950F73008BE374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EC451FB21950F71008BE374 = {
+			isa = PBXGroup;
+			children = (
+				3EC4520621950F72008BE374 /* Mental Math */,
+				3EC4521B21950F73008BE374 /* Mental MathTests */,
+				3EC4522621950F73008BE374 /* Mental MathUITests */,
+				3EC4520521950F72008BE374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EC4520521950F72008BE374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EC4520421950F72008BE374 /* Mental Math.app */,
+				3EC4521821950F73008BE374 /* Mental MathTests.xctest */,
+				3EC4522321950F73008BE374 /* Mental MathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EC4520621950F72008BE374 /* Mental Math */ = {
+			isa = PBXGroup;
+			children = (
+				3EC4520721950F72008BE374 /* AppDelegate.swift */,
+				3EC4520921950F72008BE374 /* ViewController.swift */,
+				3EC4520B21950F72008BE374 /* Main.storyboard */,
+				3EC4520E21950F73008BE374 /* Assets.xcassets */,
+				3EC4521021950F73008BE374 /* LaunchScreen.storyboard */,
+				3EC4521321950F73008BE374 /* Info.plist */,
+			);
+			path = "Mental Math";
+			sourceTree = "<group>";
+		};
+		3EC4521B21950F73008BE374 /* Mental MathTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EC4521C21950F73008BE374 /* Mental_MathTests.swift */,
+				3EC4521E21950F73008BE374 /* Info.plist */,
+			);
+			path = "Mental MathTests";
+			sourceTree = "<group>";
+		};
+		3EC4522621950F73008BE374 /* Mental MathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EC4522721950F73008BE374 /* Mental_MathUITests.swift */,
+				3EC4522921950F73008BE374 /* Info.plist */,
+			);
+			path = "Mental MathUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EC4520321950F72008BE374 /* Mental Math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC4522C21950F73008BE374 /* Build configuration list for PBXNativeTarget "Mental Math" */;
+			buildPhases = (
+				3EC4520021950F72008BE374 /* Sources */,
+				3EC4520121950F72008BE374 /* Frameworks */,
+				3EC4520221950F72008BE374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mental Math";
+			productName = "Mental Math";
+			productReference = 3EC4520421950F72008BE374 /* Mental Math.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EC4521721950F73008BE374 /* Mental MathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC4522F21950F73008BE374 /* Build configuration list for PBXNativeTarget "Mental MathTests" */;
+			buildPhases = (
+				3EC4521421950F73008BE374 /* Sources */,
+				3EC4521521950F73008BE374 /* Frameworks */,
+				3EC4521621950F73008BE374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EC4521A21950F73008BE374 /* PBXTargetDependency */,
+			);
+			name = "Mental MathTests";
+			productName = "Mental MathTests";
+			productReference = 3EC4521821950F73008BE374 /* Mental MathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EC4522221950F73008BE374 /* Mental MathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC4523221950F73008BE374 /* Build configuration list for PBXNativeTarget "Mental MathUITests" */;
+			buildPhases = (
+				3EC4521F21950F73008BE374 /* Sources */,
+				3EC4522021950F73008BE374 /* Frameworks */,
+				3EC4522121950F73008BE374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EC4522521950F73008BE374 /* PBXTargetDependency */,
+			);
+			name = "Mental MathUITests";
+			productName = "Mental MathUITests";
+			productReference = 3EC4522321950F73008BE374 /* Mental MathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EC451FC21950F71008BE374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Wesley Dashner";
+				TargetAttributes = {
+					3EC4520321950F72008BE374 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3EC4521721950F73008BE374 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3EC4520321950F72008BE374;
+					};
+					3EC4522221950F73008BE374 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3EC4520321950F72008BE374;
+					};
+				};
+			};
+			buildConfigurationList = 3EC451FF21950F71008BE374 /* Build configuration list for PBXProject "Mental Math" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EC451FB21950F71008BE374;
+			productRefGroup = 3EC4520521950F72008BE374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EC4520321950F72008BE374 /* Mental Math */,
+				3EC4521721950F73008BE374 /* Mental MathTests */,
+				3EC4522221950F73008BE374 /* Mental MathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EC4520221950F72008BE374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC4521221950F73008BE374 /* LaunchScreen.storyboard in Resources */,
+				3EC4520F21950F73008BE374 /* Assets.xcassets in Resources */,
+				3EC4520D21950F72008BE374 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC4521621950F73008BE374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC4522121950F73008BE374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EC4520021950F72008BE374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC4520A21950F72008BE374 /* ViewController.swift in Sources */,
+				3EC4520821950F72008BE374 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC4521421950F73008BE374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC4521D21950F73008BE374 /* Mental_MathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC4521F21950F73008BE374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC4522821950F73008BE374 /* Mental_MathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EC4521A21950F73008BE374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EC4520321950F72008BE374 /* Mental Math */;
+			targetProxy = 3EC4521921950F73008BE374 /* PBXContainerItemProxy */;
+		};
+		3EC4522521950F73008BE374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EC4520321950F72008BE374 /* Mental Math */;
+			targetProxy = 3EC4522421950F73008BE374 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EC4520B21950F72008BE374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EC4520C21950F72008BE374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EC4521021950F73008BE374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EC4521121950F73008BE374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EC4522A21950F73008BE374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EC4522B21950F73008BE374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EC4522D21950F73008BE374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6EF3SS2L63;
+				INFOPLIST_FILE = "Mental Math/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesleydashner.Mental-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EC4522E21950F73008BE374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6EF3SS2L63;
+				INFOPLIST_FILE = "Mental Math/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesleydashner.Mental-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EC4523021950F73008BE374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6EF3SS2L63;
+				INFOPLIST_FILE = "Mental MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesleydashner.Mental-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mental Math.app/Mental Math";
+			};
+			name = Debug;
+		};
+		3EC4523121950F73008BE374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6EF3SS2L63;
+				INFOPLIST_FILE = "Mental MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesleydashner.Mental-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mental Math.app/Mental Math";
+			};
+			name = Release;
+		};
+		3EC4523321950F73008BE374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6EF3SS2L63;
+				INFOPLIST_FILE = "Mental MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesleydashner.Mental-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mental Math";
+			};
+			name = Debug;
+		};
+		3EC4523421950F73008BE374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6EF3SS2L63;
+				INFOPLIST_FILE = "Mental MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesleydashner.Mental-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mental Math";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EC451FF21950F71008BE374 /* Build configuration list for PBXProject "Mental Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC4522A21950F73008BE374 /* Debug */,
+				3EC4522B21950F73008BE374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC4522C21950F73008BE374 /* Build configuration list for PBXNativeTarget "Mental Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC4522D21950F73008BE374 /* Debug */,
+				3EC4522E21950F73008BE374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC4522F21950F73008BE374 /* Build configuration list for PBXNativeTarget "Mental MathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC4523021950F73008BE374 /* Debug */,
+				3EC4523121950F73008BE374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC4523221950F73008BE374 /* Build configuration list for PBXNativeTarget "Mental MathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC4523321950F73008BE374 /* Debug */,
+				3EC4523421950F73008BE374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EC451FC21950F71008BE374 /* Project object */;
+}
